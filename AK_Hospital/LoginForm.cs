@@ -21,7 +21,7 @@ namespace AK_Hospital
 
         //.. GLOBAL VARIABLES
         SqlConnection con;
-        string str = "Data Source=Dagmawi\\SQLEXPRESS;Initial Catalog= AKHospital; Integrated Security = true;";
+        string str = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\user\\Desktop\\Personal Documents\\Attempts\\C#\\AK_Hospital\\AK_Hospital\\SpawnPoint_DB.mdf\";Integrated Security=True";
         public bool is_Visible_HideButton = false;
 
         private void loginButton_Click(object sender, EventArgs e)

@@ -115,7 +115,7 @@ namespace AK_Hospital.User_Controls
             updater.Start();
             PatientUpdater.Start();
             MedUpdater.Start();
-            string str = "Data Source=Dagmawi\\SQLEXPRESS;Initial Catalog= AKHospital; Integrated Security = true;";
+            string str = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\user\\Desktop\\Personal Documents\\Attempts\\C#\\AK_Hospital\\AK_Hospital\\SpawnPoint_DB.mdf\";Integrated Security=True";
 
 
 

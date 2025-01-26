@@ -36,7 +36,7 @@ create table Prescription
 	MedicationId int
 )
 
--- insertS 2,'Adel','Abdul','Surgeon','Adel','1234'
+exec insertS 2,'Adel','Abdul','Surgeon','Adel','1234'
 
 alter table Staff 
 add constraint check_Logged
